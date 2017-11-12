@@ -9,7 +9,7 @@
 @if ($photo->format == 'pdf' )
 <img src="/storage/default/defaultpdf.png" alt="{{$photo->title}}">
 <br><br>
-@elseif($photo->format == 'mp4' || 'avi')
+@elseif($photo->format == 'mp4' || $photo->format == 'avi' || $photo->format == '3gp' || $photo->format == 'mp3' )
 <video width="320" height="240" controls>  
 <source src="/storage/photos/{{$photo->album_id}}/{{$photo->photo}}" alt="{{$photo->title}}" type="video/mp4">  
 <source src="/storage/photos/{{$photo->album_id}}/{{$photo->photo}}" alt="{{$photo->title}}" type="video/ogg">  
