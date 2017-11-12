@@ -51,3 +51,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+
+##Masso Author
+
+- update folder permission
+- composer update
+- composer require "laravelcollective/html":"5.5.0"
+- php artisan storage:link
