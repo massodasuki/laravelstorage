@@ -9,6 +9,7 @@
 <li class="menu-text">Vital Storage</li>
 <li><a href="/">Home</a></li>
 <li><a href="/albums/create">Create Folder</a></li>
+<li><a href="fileentry">Create Website</a></li>
 
 
 

@@ -55,6 +55,12 @@ return [
             'visibility' => 'public',
         ],
 
+
+        'customs' => [
+            'driver' => 'local',
+            'root'   => 'C:/Users/Masso/Desktop/uploads',
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_KEY'),
